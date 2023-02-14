@@ -125,7 +125,7 @@ Now we can use the command flushdns. It will wipe out all the previous cache.
 <img src="https://i.imgur.com/znPxbnv.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Open Command Line as an local admin and type Ipconfig /displaydns to observe the local dbs cache, then Ipconfig /flushdns , it will successfully flush the dns. Then again type Ipconfig /displaydns and observe that it’s empty.
+Open Command Line as an local admin and type Ipconfig /displaydns to observe the local DNS cache, then Ipconfig /flushdns , it will successfully flush the dns. Then again type Ipconfig /displaydns and observe that it’s empty.
 
 </p>
 <br />
@@ -175,7 +175,7 @@ Go back to DC-1 and create a CNAME record that points the host “search” to w
 Then on Client-1 ping search, and observe the results of the CNAME record, we can see google's ip address.
   
   
-Browse search.mydomain.com but it will not going to match the certificate but We force it to resolve it to google through cname record.
+Browse search.mydomain.com but it will not going to match the certificate but we still force it to resolve it to google through cname record.
 
 </p>
 <br />
