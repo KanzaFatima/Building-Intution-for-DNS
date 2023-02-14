@@ -83,7 +83,7 @@ You can also type nslookup mainframe.
 <img src="https://i.imgur.com/JiAjvZM.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Look at the DNS cache on client 1, and to do that type ip config /displaydns. You can see the dns as the local dns cache because client 1 already figured it out.
+Look at the DNS cache on client 1, and to do that type ip config /displaydns. 
 
 </p>
 <br />
@@ -117,7 +117,6 @@ Type ipconfig /displaydns we can observe mainframe with the old ip address.
 </p>
 <p>
 Now we can use the command flushdns. It will wipe out all the previous cache. 
-9.	Observe the local dns cache (ipconfig /displaydns)
 
 </p>
 <br />
@@ -126,7 +125,7 @@ Now we can use the command flushdns. It will wipe out all the previous cache.
 <img src="https://i.imgur.com/znPxbnv.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Open Command Line as an local admin and type Ipconfig /displaydns, then Ipconfig /flushdns , it will successfully flush the dns. Then again type Ipconfig /displaydns and observe that it’s empty.
+Open Command Line as an local admin and type Ipconfig /displaydns to observe the local dbs cache, then Ipconfig /flushdns , it will successfully flush the dns. Then again type Ipconfig /displaydns and observe that it’s empty.
 
 </p>
 <br />
