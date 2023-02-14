@@ -202,4 +202,4 @@ nslookup “search”, and observe the results of the CNAME record.
 <p>
 </p>
 <p>
-You can also observe Root Hint.
+You can also observe Root Hints.
